@@ -1,0 +1,1 @@
+cmd_mailutils/lib.a := rm -f mailutils/lib.a; /home/martin/Bureau/Cours/LA1/LPE/Partie2/srcRPI/tools-master/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ar  rcs mailutils/lib.a mailutils/mail.o mailutils/makemime.o mailutils/popmaildir.o mailutils/reformime.o mailutils/sendmail.o

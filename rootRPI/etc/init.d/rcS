@@ -1,0 +1,15 @@
+#! /bin/sh
+mount none /proc -t proc
+mount none /sys -t sysfs
+mount / -o remount,rw
+
+/sbin/mdev -s
+echo /sbin/mdev >/proc/sys/kernel/hotplug
+
+loadkmap < /etc/azerty.kmap
+
+# Network
+udhcpc -i eth0 -s /etc/share/udhcpc/default.script
+
+# Web server
+httpd -h /var/www

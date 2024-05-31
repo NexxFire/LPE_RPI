@@ -1,0 +1,1 @@
+cmd_shell/lib.a := rm -f shell/lib.a; /home/martin/Bureau/Cours/LA1/LPE/Partie2/srcRPI/tools-master/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ar  rcs shell/lib.a shell/ash.o shell/ash_ptr_hack.o shell/cttyhack.o shell/hush.o shell/match.o shell/math.o shell/random.o shell/shell_common.o

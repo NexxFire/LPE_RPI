@@ -1,0 +1,1 @@
+cmd_selinux/lib.a := rm -f selinux/lib.a; /home/martin/Bureau/Cours/LA1/LPE/Partie2/srcRPI/tools-master/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-ar  rcs selinux/lib.a 
